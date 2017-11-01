@@ -17,7 +17,6 @@
 		4CDA40481FAA400F00E9B1C9 /* Login in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA403B1FAA400D00E9B1C9 /* Login */; };
 		4CDA40491FAA400F00E9B1C9 /* MainNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA403C1FAA400D00E9B1C9 /* MainNavigationViewController.swift */; };
 		4CDA404A1FAA400F00E9B1C9 /* Profiles in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA403D1FAA400E00E9B1C9 /* Profiles */; };
-		4CDA404B1FAA400F00E9B1C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA403E1FAA400E00E9B1C9 /* Main.storyboard */; };
 		4CDA404D1FAA400F00E9B1C9 /* RootContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA40401FAA400E00E9B1C9 /* RootContainerViewController.swift */; };
 		4CDA404E1FAA400F00E9B1C9 /* Lang.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA40411FAA400E00E9B1C9 /* Lang.swift */; };
 		4CDA404F1FAA400F00E9B1C9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA40421FAA400E00E9B1C9 /* MainTabBarController.swift */; };
@@ -25,7 +24,6 @@
 		4CDA40511FAA400F00E9B1C9 /* Models in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA40441FAA400E00E9B1C9 /* Models */; };
 		4CDA40521FAA400F00E9B1C9 /* Networking in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA40451FAA400E00E9B1C9 /* Networking */; };
 		4CDA40531FAA400F00E9B1C9 /* MenuNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA40461FAA400E00E9B1C9 /* MenuNavigationViewController.swift */; };
-		4CDA40541FAA400F00E9B1C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA40471FAA400E00E9B1C9 /* LaunchScreen.storyboard */; };
 		4CDA405C1FAA402C00E9B1C9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA40551FAA402B00E9B1C9 /* HomeViewController.swift */; };
 		4CDA405D1FAA402C00E9B1C9 /* Camera in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA40561FAA402B00E9B1C9 /* Camera */; };
 		4CDA405E1FAA402C00E9B1C9 /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA40571FAA402B00E9B1C9 /* CustomTabBarController.swift */; };
@@ -34,6 +32,7 @@
 		4CDA40611FAA402C00E9B1C9 /* GatewaysDetailTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CDA405A1FAA402B00E9B1C9 /* GatewaysDetailTabBarController.swift */; };
 		4CDA40621FAA402C00E9B1C9 /* Gateways in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA405B1FAA402B00E9B1C9 /* Gateways */; };
 		4CDA40641FAA405300E9B1C9 /* SplashScreenUI in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA40631FAA405300E9B1C9 /* SplashScreenUI */; };
+		4CDA40661FAA45AE00E9B1C9 /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4CDA40651FAA45AE00E9B1C9 /* Base.lproj */; };
 		55F4B0D8B7D2FAB57EF01780 /* Pods_kineticTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C6B63DC49A3B697E50319FF /* Pods_kineticTests.framework */; };
 		95AA478F813258CDD0C73FC0 /* Pods_kineticUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE04BFA3D22A81ACC374597F /* Pods_kineticUITests.framework */; };
 		C04C8C220CE4E7D0B314412C /* Pods_kinetic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8682D3161D8CEAE4688B2C6 /* Pods_kinetic.framework */; };
@@ -74,7 +73,6 @@
 		4CDA403B1FAA400D00E9B1C9 /* Login */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Login; sourceTree = "<group>"; };
 		4CDA403C1FAA400D00E9B1C9 /* MainNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationViewController.swift; sourceTree = "<group>"; };
 		4CDA403D1FAA400E00E9B1C9 /* Profiles */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Profiles; sourceTree = "<group>"; };
-		4CDA403E1FAA400E00E9B1C9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		4CDA40401FAA400E00E9B1C9 /* RootContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootContainerViewController.swift; sourceTree = "<group>"; };
 		4CDA40411FAA400E00E9B1C9 /* Lang.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lang.swift; sourceTree = "<group>"; };
 		4CDA40421FAA400E00E9B1C9 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 		4CDA40441FAA400E00E9B1C9 /* Models */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Models; sourceTree = "<group>"; };
 		4CDA40451FAA400E00E9B1C9 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Networking; sourceTree = "<group>"; };
 		4CDA40461FAA400E00E9B1C9 /* MenuNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuNavigationViewController.swift; sourceTree = "<group>"; };
-		4CDA40471FAA400E00E9B1C9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4CDA40551FAA402B00E9B1C9 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		4CDA40561FAA402B00E9B1C9 /* Camera */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Camera; sourceTree = "<group>"; };
 		4CDA40571FAA402B00E9B1C9 /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
@@ -91,6 +88,7 @@
 		4CDA405A1FAA402B00E9B1C9 /* GatewaysDetailTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GatewaysDetailTabBarController.swift; sourceTree = "<group>"; };
 		4CDA405B1FAA402B00E9B1C9 /* Gateways */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Gateways; sourceTree = "<group>"; };
 		4CDA40631FAA405300E9B1C9 /* SplashScreenUI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SplashScreenUI; sourceTree = "<group>"; };
+		4CDA40651FAA45AE00E9B1C9 /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
 		52559A6A09FED8B99D1818D9 /* Pods-kineticTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kineticTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kineticTests/Pods-kineticTests.release.xcconfig"; sourceTree = "<group>"; };
 		63D80BB0CBD8C3970EC116D6 /* Pods-kineticUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kineticUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kineticUITests/Pods-kineticUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		73538281982AB4ED4846F0EA /* Pods-kinetic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kinetic.release.xcconfig"; path = "Pods/Target Support Files/Pods-kinetic/Pods-kinetic.release.xcconfig"; sourceTree = "<group>"; };
@@ -166,6 +164,7 @@
 		4C123C321FA7B0CD004C639B /* kinetic */ = {
 			isa = PBXGroup;
 			children = (
+				4CDA40651FAA45AE00E9B1C9 /* Base.lproj */,
 				4CDA40631FAA405300E9B1C9 /* SplashScreenUI */,
 				4CDA40431FAA400E00E9B1C9 /* Organizations */,
 				4CDA40561FAA402B00E9B1C9 /* Camera */,
@@ -180,8 +179,6 @@
 				4CDA405A1FAA402B00E9B1C9 /* GatewaysDetailTabBarController.swift */,
 				4CDA40551FAA402B00E9B1C9 /* HomeViewController.swift */,
 				4CDA40411FAA400E00E9B1C9 /* Lang.swift */,
-				4CDA40471FAA400E00E9B1C9 /* LaunchScreen.storyboard */,
-				4CDA403E1FAA400E00E9B1C9 /* Main.storyboard */,
 				4CDA403C1FAA400D00E9B1C9 /* MainNavigationViewController.swift */,
 				4CDA40421FAA400E00E9B1C9 /* MainTabBarController.swift */,
 				4CDA40461FAA400E00E9B1C9 /* MenuNavigationViewController.swift */,
@@ -342,16 +339,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CDA40541FAA400F00E9B1C9 /* LaunchScreen.storyboard in Resources */,
 				4CDA404A1FAA400F00E9B1C9 /* Profiles in Resources */,
 				4CDA40481FAA400F00E9B1C9 /* Login in Resources */,
 				4CDA40521FAA400F00E9B1C9 /* Networking in Resources */,
 				4CDA40601FAA402C00E9B1C9 /* Commons in Resources */,
 				4C123CA81FA7B761004C639B /* Assets.xcassets in Resources */,
 				4CDA405D1FAA402C00E9B1C9 /* Camera in Resources */,
+				4CDA40661FAA45AE00E9B1C9 /* Base.lproj in Resources */,
 				4CDA40641FAA405300E9B1C9 /* SplashScreenUI in Resources */,
 				4CDA40501FAA400F00E9B1C9 /* Organizations in Resources */,
-				4CDA404B1FAA400F00E9B1C9 /* Main.storyboard in Resources */,
 				4CDA40621FAA402C00E9B1C9 /* Gateways in Resources */,
 				4CDA40511FAA400F00E9B1C9 /* Models in Resources */,
 			);
