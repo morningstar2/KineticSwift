@@ -1,15 +1,15 @@
 //
 //  TileGridView.swift
-//  dataconnect
-//  Ripple Grid Background consisting of grid tiles
-//  Created by hienng on 9/22/17.
+//  kinetic
+//
+//  Created by hienng on 11/2/17.
 //  Copyright © 2017 cisco. All rights reserved.
 //
 
 import UIKit
 
 class TileGridView: UIView {
-
+    
     fileprivate var containerView: UIView!
     fileprivate var modelTileView: TileView!
     fileprivate var centerTileView: TileView? = nil
@@ -52,14 +52,14 @@ class TileGridView: UIView {
         logoLabel = generateLogoLabel()
         centerTileView?.addSubview(logoLabel)
         layoutIfNeeded()
-
+        
     }
     
     func startAnimating() {
         beginTime = CACurrentMediaTime()
         startAnimatingWithBeginTime(beginTime)
     }
-
+    
 }
 
 extension TileGridView {
@@ -114,33 +114,33 @@ extension TileGridView {
     }
     
     fileprivate func startAnimatingWithBeginTime(_ beginTime: TimeInterval) {
-    
-    let linearTimingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
-    
-    let keyframe = CAKeyframeAnimation(keyPath: "transform.scale")
-    keyframe.timingFunctions = [linearTimingFunction, CAMediaTimingFunction(controlPoints: 0.6, 0.0, 0.15, 1.0), linearTimingFunction]
-    keyframe.repeatCount = Float.infinity;
-    keyframe.duration = kAnimationDuration
-    keyframe.isRemovedOnCompletion = false
-    keyframe.keyTimes = [0.0, 0.45, 0.887, 1.0]
-    keyframe.values = [0.75, 0.75, 1.0, 1.0]
-    keyframe.beginTime = beginTime
-    keyframe.timeOffset = kAnimationTimeOffset
-    
-    containerView.layer.add(keyframe, forKey: "scale")
-    
-    for tileRows in tileViewRows {
-      for view in tileRows {
         
-        let distance = distanceFromCenterViewWithView(view)
-        var vector = normalizedVectorFromCenterViewToView(view)
+        let linearTimingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
         
-        vector = CGPoint(x: vector.x * kRippleMagnitudeMultiplier * distance, y: vector.y * kRippleMagnitudeMultiplier * distance)
+        let keyframe = CAKeyframeAnimation(keyPath: "transform.scale")
+        keyframe.timingFunctions = [linearTimingFunction, CAMediaTimingFunction(controlPoints: 0.6, 0.0, 0.15, 1.0), linearTimingFunction]
+        keyframe.repeatCount = Float.infinity;
+        keyframe.duration = kAnimationDuration
+        keyframe.isRemovedOnCompletion = false
+        keyframe.keyTimes = [0.0, 0.45, 0.887, 1.0]
+        keyframe.values = [0.75, 0.75, 1.0, 1.0]
+        keyframe.beginTime = beginTime
+        keyframe.timeOffset = kAnimationTimeOffset
         
-        view.startAnimatingWithDuration(kAnimationDuration, beginTime: beginTime, rippleDelay: kRippleDelayMulitplier * TimeInterval(distance), rippleOffset: vector)
-      }
+        containerView.layer.add(keyframe, forKey: "scale")
+        
+        for tileRows in tileViewRows {
+            for view in tileRows {
+                
+                let distance = distanceFromCenterViewWithView(view)
+                var vector = normalizedVectorFromCenterViewToView(view)
+                
+                vector = CGPoint(x: vector.x * kRippleMagnitudeMultiplier * distance, y: vector.y * kRippleMagnitudeMultiplier * distance)
+                
+                view.startAnimatingWithDuration(kAnimationDuration, beginTime: beginTime, rippleDelay: kRippleDelayMulitplier * TimeInterval(distance), rippleOffset: vector)
+            }
+        }
     }
-  }
     
     fileprivate func distanceFromCenterViewWithView(_ view: UIView)->CGFloat {
         guard let centerTileView = centerTileView else { return 0.0 }

@@ -1,15 +1,15 @@
 //
-//  SplashViewController.swift
-//  dataconnect
+//  WelcomeViewController.swift
+//  kinetic
 //
-//  Created by hienng on 9/20/17.
+//  Created by hienng on 11/2/17.
 //  Copyright © 2017 cisco. All rights reserved.
 //
 
 import UIKit
 
-class SplashViewController: UIViewController {
-
+class WelcomeViewController: UIViewController {
+    
     open var pulsing: Bool = false
     
     var tileGridView: TileGridView!
@@ -29,5 +29,5 @@ class SplashViewController: UIViewController {
     open override var prefersStatusBarHidden : Bool {
         return true
     }
-
+    
 }
